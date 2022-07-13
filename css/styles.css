@@ -452,14 +452,15 @@ p {
 }
 
 
-/* наши преимущества */
-.feature {
+/* наши особенности */
+
+.section-feature {
     
     margin-left: auto;
     margin-right: auto;
 }
 
-.feature-ul {
+.feature_ul {
     display: flex;
     align-items: center;
     margin-bottom: 0;
@@ -467,20 +468,24 @@ p {
     padding-left: 0;
 
 }
-.attention::before{
+
+.feature_li+.feature_li {
+    margin-left: 30px;
+}
+.attention_li::before{
 background-image: url(../image/Group\ 1.svg);
 content: "";
 display: block;
 height: 120px;
 }
 
-.punctuality::before{
+.punctuality_li::before{
     background-image: url(../image/Group\ 2.svg);
         content: "";
         display: block;
         height: 120px;
 }
-.planning::before {
+.planning_li::before {
     background-image: url(../image/Group\ 33.svg);
         content: "";
         display: block;
@@ -488,17 +493,15 @@ height: 120px;
        
 }
 
-.technology::before {
+.technology_li::before {
     background-image: url(../image/Group\ 4.svg);
         content: "";
         display: block;
         height: 120px;
 }
 
-.feature-li + .feature-li {
-    margin-left: 30px;
-}
-.feature-title {
+
+.feature__title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -508,7 +511,7 @@ height: 120px;
     margin-bottom: 10px;
     
 }
-.text {
+.feature__text {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
