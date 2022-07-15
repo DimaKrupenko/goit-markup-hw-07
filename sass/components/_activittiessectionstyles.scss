@@ -29,12 +29,13 @@
     position: relative;
     z-index: -1;
 
+    +.activities__img {
+            padding-left: 30px;
+        }
 
 }
 
-.activities__img+.activities__img {
-    padding-left: 30px;
-}
+
 
 .activities__text {
     display: flex;

@@ -1,5 +1,8 @@
+// переменные
 @import './components/variables';
+// общие значения
 @import './components/basestyles';
+// секции с основной страницы
 @import './components/hederstyles';
 @import './components/herostyles';
 @import './components/modalherostyles';
@@ -8,5 +11,6 @@
 @import './components/teamsectionstyles';
 @import './components/clientssectionstyles';
 @import './components/footerstyles';
+// секция портфолио
 @import './components/portfoliosectionstyles';
 
