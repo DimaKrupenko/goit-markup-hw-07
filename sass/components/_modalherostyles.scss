@@ -175,6 +175,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 24px;
 }
 
 .checkbox__input {
@@ -205,10 +206,11 @@
 }
 
 .checkbox__input:checked + .checkbox__icon {
-    background-image: url(../image/icon\ check.svg);
+    background-image: url(../image/check.svg);
     background-color: $accent-color;
     border-color: $accent-color;
     background-repeat: no-repeat;
+    
 }
 
 .checkbox__link {
